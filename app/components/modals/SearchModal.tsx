@@ -127,7 +127,12 @@ const SearchModal = () => {
         value={location} 
         onChange={(value) => 
           setLocation(value as CountrySelectValue)} 
-      />
+      /> 
+      <div className="
+      flex items-center border-2 rounded-full py-2 
+      ">
+        <input className='pl-5 bg-transparent outline-none' type="text" placeholder='Введите текст'/>
+      </div>
       <hr />
       <Map center={location?.latlng} />
     </div>

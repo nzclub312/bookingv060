@@ -1,6 +1,6 @@
 {
   "name": "nz-app",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.2",
+    "@mui/material": "^5.14.1",
     "@next-auth/prisma-adapter": "^1.0.6",
     "@prisma/client": "^4.14.1",
     "@types/node": "20.2.1",
@@ -23,6 +23,7 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.3",
     "leaflet": "^1.9.4",
+    "leaflet-fullscreen": "^1.0.2",
     "next": "^13.4.3",
     "next-auth": "^4.22.1",
     "next-cloudinary": "^4.12.0",
@@ -34,9 +35,14 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.8.0",
     "react-leaflet": "^4.2.1",
+    "react-leaflet-cluster": "^2.1.0",
+    "react-query": "^3.39.3",
     "react-select": "^5.7.3",
     "react-spinners": "^0.13.8",
+    "supercluster": "^8.0.1",
     "typescript": "5.0.4",
+    "use-supercluster": "^0.4.0",
+    "web-vitals": "^3.4.0",
     "world-countries": "^4.0.0",
     "zustand": "^4.3.8"
   },

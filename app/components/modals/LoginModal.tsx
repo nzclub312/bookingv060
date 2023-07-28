@@ -52,15 +52,14 @@ const LoginModal = () => {
     .then((callback) => {
       setIsLoading(false);
 
-      if (callback?.ok) {
-        toast.success('Вход выполнен!');
+      if (callback?.ok && !callback?.error) {
+        toast.success('Вы вошли');
         router.refresh();
         loginModal.onClose();
-      }
-      
-      if (callback?.error) {
+}
+if (callback?.error) {
         toast.error(callback.error);
-      }
+}
     });
   }
 
