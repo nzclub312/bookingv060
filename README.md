@@ -33,7 +33,7 @@ Github-аутентификация
 
 ### Cloning the repository
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-airbnb-clone.git
+git clone https://github.com/nzclub312/bookingv1.git
 ```
 
 Для запуска проекта используйте npm run dev
