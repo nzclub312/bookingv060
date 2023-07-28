@@ -37,3 +37,4 @@ git clone https://github.com/AntonioErdeljac/next13-airbnb-clone.git
 ```
 
 Для запуска проекта используйте npm run dev
+# nextjs_booking_nz_060
